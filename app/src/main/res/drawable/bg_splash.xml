@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base linear gradient (top: light blue → bottom: deep blue) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#819EE5"
+            android:centerColor="#5774BA"
+            android:endColor="#39559E"
+            android:type="linear" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="35%"
+                android:gradientRadius="600dp"
+                android:startColor="#33D0CED0"
+            android:endColor="#0039559E" />
+        </shape>
+    </item>
+
+</layer-list>
